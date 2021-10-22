@@ -9,7 +9,7 @@ let internals ={
     }
 };
 
-const filePath = "../scr/routes/";
+const filePath = "../app/routes/";
 
 internals.manifest = {
     server : {
@@ -38,7 +38,7 @@ internals.manifest = {
                             title: 'Test API Documentation',
                             version: Pack.version,
                         },
-                        host:process.env.SWAGGER_HOST,  //'localhost:8000',//process.env.SWAGGER_HOST,
+                        host:process.env.SWAGGER_HOST,  //'localhost:8000/documentation',//process.env.SWAGGER_HOST,
                         securityDefinitions: {
                             'jwt': {
                                 'type': 'apiKey',

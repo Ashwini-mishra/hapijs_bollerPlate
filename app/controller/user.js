@@ -2,7 +2,6 @@ require('dotenv').config();
 const jwt = require("jsonwebtoken");
 const services = require("../services/userServices");
 const Joi = require('joi');
-require('dotenv').config();
 
 
 /********* create user ************/

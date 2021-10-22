@@ -7,7 +7,7 @@ let server = new Hapi.Server();
 
 /*********** local directory ************/
 const composeOptions = {
-    relativeTo: __dirname+'/src',
+    relativeTo: __dirname+'/app',
 };
 
 /******** start server using IIFE ************/ 
